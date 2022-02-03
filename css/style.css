@@ -1,0 +1,39 @@
+body{
+    background-image: url(../images/background.jpg); 
+    background-attachment: fixed;
+    font-family: 'Caveat', cursive;
+}
+
+#content{
+    background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px 20px black;
+}
+
+#text{
+    color : white;
+    font-size: 30px;
+}
+
+#index_content_droite_paragraphe{
+    text-align : center;
+}
+
+.footer-text{
+    color : rgb(146, 148, 150);
+}
+
+hr{
+    color : #FFFFFF;
+}
+
+a{
+    color:rgb(177, 177, 177);
+}
+
+/*
+https://fonts.google.com/specimen/Lobster
+https://fonts.google.com/specimen/Dancing+Script
+https://fonts.google.com/specimen/Architects+Daughter
+https://fonts.google.com/specimen/Caveat#standard-styles
+https://fonts.google.com/specimen/Neonderthaw
+*/
