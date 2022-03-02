@@ -18,6 +18,8 @@ row : permet d'initialiser les colonnes.
 
 col-x : permet de définir une colonnes de taille x.
 
-card : permet de créer une carte
+card : permet de créer une carte.
+
+card-img-top : permet de définir la photo de la carte.
 
 card-body : permet de définir le centre de la carte, le corps, il contient le card-title et le card-text.
