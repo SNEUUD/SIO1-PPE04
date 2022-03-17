@@ -8,24 +8,14 @@
     <link href="../../css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="icon" href="../../images/navbar_icon.png" />
+    <base href="../../">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">
-                <img src="../../images/navbar_icon.png" alt="navbar_icon" height="30"
-                    class="d-inline-block align-text-top">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="../histoire.html">Histoire</a></li>
-                <li class="nav-item"><a class="nav-link " href="../personnages.html">Personnages</a></li>
-                <li class="nav-item"><a class="nav-link " href="map.html">Map</a></li>
-                <!--<li class="nav-item"><a class="nav-link " href="avis.html">Avis</a></li>-->
-            </ul>
-        </div>
-    </nav>
+    <?php
+        include ('../../php/entete.php');
+    ?>
     <!-- Navbar -->
     <!-- Content -->
     <!-- Content-->
@@ -73,18 +63,18 @@
             <!-- Content Droit -->
             <div class="col-4" style="border:30px solid transparent">
                 <!-- top -->
-                <p id="index_content_droite_paragraphe"><img src="../../images/Micah_Bell07.webp"
+                <p id="index_content_droite_paragraphe"><img src="images/Micah_Bell07.webp"
                         style="border:30px solid transparent;  max-width: 90%; max-height: 90%;" /></p>
                 <!-- top -->
                 <hr />
                 <!-- middle -->
                 <p class="text-center" id="text" style="border:15px solid transparent;">
                     Naissance - 1860<br>
-                    Statut - <a href="../catégorie/decede.html">Décédé</a> (1907)<br>
+                    Statut - <a href="pages/catégorie/decede.php">Décédé</a> (1907)<br>
                     Sexe - Masculin<br>
                     Nationalité - Américain<br>
                     Occupation - Hors-la-loi<br>
-                    Rôles - <a href="../catégorie/antagoniste.html">Antagoniste</a><br>
+                    Rôles - <a href="pages/catégorie/antagoniste.php">Antagoniste</a><br>
                 </p>
                 <!-- middle -->
                 <hr />

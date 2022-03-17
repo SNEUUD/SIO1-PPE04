@@ -8,24 +8,14 @@
     <link href="../../css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="icon" href="../../images/navbar_icon.png" />
+    <base href="../../">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">
-                <img src="../../images/navbar_icon.png" alt="navbar_icon" height="30"
-                    class="d-inline-block align-text-top">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="../histoire.html">Histoire</a></li>
-                <li class="nav-item"><a class="nav-link " href="../personnages.html">Personnages</a></li>
-                <li class="nav-item"><a class="nav-link " href="map.html">Map</a></li>
-                <!--<li class="nav-item"><a class="nav-link " href="avis.html">Avis</a></li>-->
-            </ul>
-        </div>
-    </nav>
+    <?php
+        include ('../../php/entete.php');
+    ?>
     <!-- Navbar -->
     <!-- Content -->
     <!-- Content-->
@@ -34,8 +24,8 @@
             <!-- Content Centre -->
             <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/arthur_morgan.html">
-                        <img src="../../images/rdr2_arthur_morgan_256x256.png" class="card-img-top" alt="Arthur Morgan">
+                    <a href="pages/personnages/arthur_morgan.html">
+                        <img src="images/rdr2_arthur_morgan_256x256.png" class="card-img-top" alt="Arthur Morgan">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Arthur Morgan</h5>
@@ -46,8 +36,8 @@
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/hosea_mathews.html">
-                        <img src="../../images/rdr2_hosea_matthews_256x256.png" class="card-img-top"
+                    <a href="pages/personnages/hosea_mathews.html">
+                        <img src="images/rdr2_hosea_matthews_256x256.png" class="card-img-top"
                             alt="Hosea Matthews">
                     </a>
                     <div class="card-body">
@@ -60,21 +50,20 @@
             </div>
             <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/dutch_van_der_linde.html">
-                        <img src="../../images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top"
-                            alt="Dutch van der Linde">
+                    <a href="pages/personnages/sadie_adler.html">
+                        <img src="images/rdr2_sadie_adler_256x256.png" class="card-img-top" alt="Sadie Adler">
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">Dutch van der Linde</h5>
-                        <p class="card-text" id="text_card">Chef d'une grande bande de hors-la-loi et de renégats. Il
-                            semble
-                            néanmoins commencer à montrer des faiblesse face à l'avènement du monde moderne.</p>
+                        <h5 class="card-title">Sadie Adler</h5>
+                        <p class="card-text">Une veuve qui cherche à tout prix à venger la mort de son mari. Implacable,
+                            elle n'a
+                            peur de rien ni de personne. De mauvais augure pour ceux qui croisent sa route.</p>
                     </div>
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/sean_macguire.html">
-                        <img src="../../images/rdr2_sean_macguire_256x256.png" class="card-img-top" alt="Sean Macguire">
+                    <a href="pages/personnages/sean_macguire.html">
+                        <img src="images/rdr2_sean_macguire_256x256.png" class="card-img-top" alt="Sean Macguire">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Sean Macguire</h5>
@@ -87,8 +76,8 @@
             </div>
             <div class="col-4" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/john_marston.html">
-                        <img src="../../images/rdr2_john_marston_256x256.png" class="card-img-top" alt="John Marston">
+                    <a href="pages/personnages/john_marston.html">
+                        <img src="images/rdr2_john_marston_256x256.png" class="card-img-top" alt="John Marston">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">John Marston</h5>
@@ -99,14 +88,14 @@
                 </div>
                 <br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/micah_bell.html">
-                        <img src="../../images/rdr2_micah_bell_256x256.png" class="card-img-top" alt="Micah Bell">
+                    <a href="pages/personnages/charles_smith.html">
+                        <img src="images/rdr2_charles_smith_256x256.png" class="card-img-top" alt="Charles Smith">
                     </a>
                     <div class="card-body">
-                        <h5 class="card-title">Micah Bell</h5>
-                        <p class="card-text">Criminel et tueur à gages professionnel. Indomptable et imprévisible, il ne
-                            vit que
-                            pour l'action. Tête influente au sein du gang, il sera le principal antagoniste du jeu.</p>
+                        <h5 class="card-title">Charles Smith</h5>
+                        <p class="card-text">Charles est un homme discret et réservé qui se montre extrêmement compétent
+                            dans tout
+                            ce qu'il entreprend et qui s'avère quasiment imbattable au combat.</p>
                     </div>
                 </div>
             </div>
@@ -114,19 +103,19 @@
             <!-- Content Droit -->
             <div class="col-4" style="border:30px solid transparent">
                 <!-- top -->
-                <p id="index_content_droite_paragraphe"><img src="../../images/index_img_navbar.png"
+                <p id="index_content_droite_paragraphe"><img src="images/index_img_navbar.png"
                         style="border:30px solid transparent;  max-width: 90%; max-height: 90%;" /></p>
                 <!-- top -->
                 <hr />
                 <!-- middle -->
                 <p class="text-center" id="text" style="border:15px solid transparent;">
-                    Décédé
+                    Protagoniste
                 </p>
                 <!-- middle -->
                 <hr />
                 <!-- bottom -->
                 <p class="text-center" id="text" style="border:15px solid transparent;">
-                    Liste des personnages de Red Dead Redemption II mort avant 1911.
+                    Liste des protagonistes.
                 </p>
                 <!-- bottom -->
             </div>

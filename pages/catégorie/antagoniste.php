@@ -8,24 +8,14 @@
     <link href="../../css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="icon" href="../../images/navbar_icon.png" />
+    <base href="../../">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">
-                <img src="../../images/navbar_icon.png" alt="navbar_icon" height="30"
-                    class="d-inline-block align-text-top">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="../histoire.html">Histoire</a></li>
-                <li class="nav-item"><a class="nav-link " href="../personnages.html">Personnages</a></li>
-                <li class="nav-item"><a class="nav-link " href="map.html">Map</a></li>
-                <!--<li class="nav-item"><a class="nav-link " href="avis.html">Avis</a></li>-->
-            </ul>
-        </div>
-    </nav>
+    <?php
+        include ('../../php/entete.php');
+    ?>
     <!-- Navbar -->
     <!-- Content -->
     <!-- Content-->
@@ -34,8 +24,8 @@
             <!-- Content Centre -->
             <div class="col-8" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/dutch_van_der_linde.html">
-                        <img src="../../images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top"
+                    <a href="pages/personnages/dutch_van_der_linde.html">
+                        <img src="images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top"
                             alt="Dutch van der Linde">
                     </a>
                     <div class="card-body">
@@ -47,8 +37,8 @@
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="../personnages/micah_bell.html">
-                        <img src="../../images/rdr2_micah_bell_256x256.png" class="card-img-top" alt="Micah Bell">
+                    <a href="pages/personnages/micah_bell.html">
+                        <img src="images/rdr2_micah_bell_256x256.png" class="card-img-top" alt="Micah Bell">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Micah Bell</h5>
@@ -62,7 +52,7 @@
             <!-- Content Droit -->
             <div class="col-4" style="border:30px solid transparent">
                 <!-- top -->
-                <p id="index_content_droite_paragraphe"><img src="../../images/index_img_navbar.png"
+                <p id="index_content_droite_paragraphe"><img src="images/index_img_navbar.png"
                         style="border:30px solid transparent;  max-width: 90%; max-height: 90%;" /></p>
                 <!-- top -->
                 <hr />

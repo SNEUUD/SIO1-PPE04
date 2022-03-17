@@ -12,19 +12,9 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/navbar_icon.png" alt="navbar_icon" height="30" class="d-inline-block align-text-top">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="pages/histoire.html">Histoire</a></li>
-                <li class="nav-item"><a class="nav-link " href="pages/personnages.html">Personnages</a></li>
-                <li class="nav-item"><a class="nav-link " href="pages/map.html">Map</a></li>
-                <!--<li class="nav-item"><a class="nav-link " href="pages/avis.html">Avis</a></li>-->
-            </ul>
-        </div>
-    </nav>
+    <?php
+    include ('php/entete.php');
+    ?>
     <!-- Navbar -->
     <!-- Content -->
     <div class="px-5 pt-3 pb-3">
@@ -46,7 +36,7 @@
                 plonge en immersion totale dans l'Amérique à l'aube de l'âge moderne.
                 </p>
                 <p id='text'>
-                <h2><a href="pages/histoire.html">- L'histoire</a></h2>
+                <h2><a href="pages/histoire.php">- L'histoire</a></h2>
                 Red Dead Redemption 2 se déroule en 1899 et est une préquelle à Red Dead Redemption.
                 « Amérique, 1899. L'ère de l'Ouest sauvage touche à sa fin alors que les autorités ont décidé de
                 traquer
@@ -55,13 +45,13 @@
                 tués.
                 </p>
                 <p id='text'>
-                <h2><a href="pages/personnages.html">- Les personnages</a></h2>
+                <h2><a href="pages/personnages.php">- Les personnages</a></h2>
                 L'histoire de Red Dead Redemption 2 est centrée autour de la bande de Van der Linde. C'est un groupe de
                 hors-la-loi, de renégats et de marginaux avec à leur tête le charismatique Dutch van der Linde. Après
                 avoir longtemps vécu au-dessus des lois, ils craignent désormais d'avoir à le payer.
                 </p>
                 <p id='text'>
-                <h2><a href="pages/personnages.html">- La carte</a></h2>
+                <h2><a href="pages/personnages.php">- La carte</a></h2>
                 Retrouvez la carte de Red Dead Redemption II.
                 </p>
             </div>
