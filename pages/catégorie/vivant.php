@@ -24,7 +24,7 @@
             <!-- Content Centre -->
             <div class="col-8" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                  <a href="pages/personnages/charles_smith.html">
+                  <a href="pages/personnages/charles_smith.php">
                     <img src="images/rdr2_charles_smith_256x256.png" class="card-img-top" alt="Charles Smith">
                   </a>
                   <div class="card-body">
@@ -35,7 +35,7 @@
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/sadie_adler.html">
+                    <a href="pages/personnages/sadie_adler.php">
                       <img src="images/rdr2_sadie_adler_256x256.png" class="card-img-top" alt="Sadie Adler">
                     </a>
                     <div class="card-body">

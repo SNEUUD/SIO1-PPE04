@@ -24,7 +24,7 @@
             <!-- Content Centre -->
             <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/arthur_morgan.html">
+                    <a href="pages/personnages/arthur_morgan.php">
                         <img src="images/rdr2_arthur_morgan_256x256.png" class="card-img-top" alt="Arthur Morgan">
                     </a>
                     <div class="card-body">
@@ -36,7 +36,7 @@
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/hosea_mathews.html">
+                    <a href="pages/personnages/hosea_mathews.php">
                         <img src="images/rdr2_hosea_matthews_256x256.png" class="card-img-top"
                             alt="Hosea Matthews">
                     </a>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/sadie_adler.html">
+                    <a href="pages/personnages/sadie_adler.php">
                         <img src="images/rdr2_sadie_adler_256x256.png" class="card-img-top" alt="Sadie Adler">
                     </a>
                     <div class="card-body">
@@ -62,7 +62,7 @@
                 </div>
                 </br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/sean_macguire.html">
+                    <a href="pages/personnages/sean_macguire.php">
                         <img src="images/rdr2_sean_macguire_256x256.png" class="card-img-top" alt="Sean Macguire">
                     </a>
                     <div class="card-body">
@@ -76,7 +76,7 @@
             </div>
             <div class="col-4" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/john_marston.html">
+                    <a href="pages/personnages/john_marston.php">
                         <img src="images/rdr2_john_marston_256x256.png" class="card-img-top" alt="John Marston">
                     </a>
                     <div class="card-body">
@@ -88,7 +88,7 @@
                 </div>
                 <br>
                 <div class="card text-white bg-dark" style="width: 18rem;">
-                    <a href="pages/personnages/charles_smith.html">
+                    <a href="pages/personnages/charles_smith.php">
                         <img src="images/rdr2_charles_smith_256x256.png" class="card-img-top" alt="Charles Smith">
                     </a>
                     <div class="card-body">
