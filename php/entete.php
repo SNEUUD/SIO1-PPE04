@@ -9,6 +9,7 @@
                 <li class="nav-item"><a class="nav-link " href="pages/histoire.php">Histoire</a></li>
                 <li class="nav-item"><a class="nav-link " href="pages/personnages.php">Personnages</a></li>
                 <li class="nav-item"><a class="nav-link " href="pages/map.php">Map</a></li>
+                <li class="nav-item"><a class="nav-link " href="php/page_connexion.php">Modifications</a></li>
                 <!--<li class="nav-item"><a class="nav-link " href="pages/avis.html">Avis</a></li>-->
             </ul>
         </div>
