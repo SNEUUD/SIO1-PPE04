@@ -33,6 +33,7 @@
         $n=0;
 
         foreach ($personnages as $personnage){
+          $id_perso = $personnage["code_perso"];
           $nom_perso = $personnage["nom_perso"];
           $resume_perso = $personnage["resume_perso"];
           $image_perso = $personnage["image_perso"];
@@ -47,8 +48,8 @@
 
           echo
           "<div class=\"card text-white bg-dark\" style=\"width: 18rem;\">
-          <a href=\"$lien_perso\">
-            <img src=\"$image_perso\" class=\"card-img-top\" alt=\"Arthur Morgan\">
+          <a href=\"pages/personnages/affiche_perso.php?id=",$personnage["code_perso"]."\">
+          <img src=\"$image_perso\" class=\"card-img-top\" alt=\"Arthur Morgan\">
           </a>
           <div class=\"card-body\">
             <h5 class=\"card-title\">$nom_perso</h5>

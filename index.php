@@ -51,7 +51,7 @@
                 avoir longtemps vécu au-dessus des lois, ils craignent désormais d'avoir à le payer.
                 </p>
                 <p id='text'>
-                <h2><a href="pages/personnages.php">- La carte</a></h2>
+                <h2><a href="pages/map.php">- La carte</a></h2>
                 Retrouvez la carte de Red Dead Redemption II.
                 </p>
             </div>
