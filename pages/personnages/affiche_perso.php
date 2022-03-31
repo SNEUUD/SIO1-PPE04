@@ -28,6 +28,7 @@
     $naissance = $perso['naissance_perso'];
     $deces = $perso['deces_perso'];
     $statut = $perso['statut_perso'];
+    $id_statut_perso = $perso['id_statut_perso'];
     $id_statut = $perso['id_statut_perso'];
     $sexe = $perso['sexe_perso'];
     $nationalite = $perso['nationalite_perso'];
@@ -72,7 +73,7 @@
                         echo "Inconnue";
                     }; 
                     ?></br>
-                    Statut - <a href="pages/catégorie/decede.php"><?php echo $statut; ?></a></br>
+                    Statut - <?php echo "<a href=\"pages/catégorie/affiche_categ_statut.php?id=",$id_statut_perso."\">"; echo $statut; ?></a></br>
                     Décès - 
                     <?php
                     if ($deces!=NULL) {
@@ -84,7 +85,7 @@
                     Sexe - <?php echo $sexe; ?></br>
                     Nationalité - <?php echo $nationalite; ?></br>
                     Occupation - <?php echo $occupation; ?></br>
-                    Rôles - <a href="pages/catégorie/protagoniste.php"><?php echo $role; ?></a><br>
+                    Rôles - <?php echo "<a href=\"pages/catégorie/affiche_categ_role.php?id=",$id_role."\">"; echo $role; ?></a></br>
                 </p>
                 <!-- middle -->
                 <hr />

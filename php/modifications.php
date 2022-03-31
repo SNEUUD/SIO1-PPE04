@@ -14,7 +14,8 @@
 <body>
     <!-- Navbar -->
     <?php
-    include ('../php/entete.php');
+    include ('entete.php');
+    include ('../personnages/affiche_perso.php');
     ?>
     <!-- Navbar -->
     <!-- Content-->
@@ -22,6 +23,69 @@
         <div class="row" id="content">
             <!-- Content Centre -->
             <div class="col-12" id="text" style="border:30px solid transparent">
+            <legend>Mettre à jour  </legend>
+<form method="post" action="modif.php"
+?php>
+   <table>
+       <tr>
+            <td><label> Saisir l'id du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"code_perso\" readonly=\"true\" value=\"$code\">"; ?></td>
+        </tr>
+        <tr>
+            <td><label> Saisir le nom du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"nom_perso\"  value=\"$nom\">"; ?></td>
+        </tr>
+        <tr>
+            <td><label> Saisir le résumé : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"resume_perso\" value=\"$resume\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir l'histoire du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"histoire_perso\" value=\"$histoire\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir la date de naissance : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"naissance_perso\" value=\"$naissance\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir la date de décès : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"deces_perso\" value=\"$deces\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir le statut de perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"statut_perso\" value=\"$statut\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir le sexe du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"sexe_perso\" value=\"$sexe\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir la nationalité du perso  : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"nationalite_perso\" value=\"$nationalite\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir l'occupation du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"occupation_perso\" value=\"$occupation\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir le rôle du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"role_perso\" value=\"$role\">"; ?></td>
+        </tr>
+        <tr>
+
+            <td><label> Saisir l'anecdote du perso : </label></td>
+            <td><?php echo "<input type=\"text\" name=\"anecdote_perso\" value=\"$anecdote\">"; ?></td>
+        </tr>
+            <td><p><input type="submit" value="Envoyer"><input type="button" value="Annuler"></td>
+</form>
                 
             </div>
             <!-- Content Centre -->
