@@ -8,7 +8,7 @@ $login = $lgn->fetch();
 
 if ($login && ($_POST['password']==$login['password_admin']))
 {
-    header('Location: ../index.php');
+    header('Location: menu_modification.php');
 } else {
     header('Location: page_connexion.php');
     

@@ -46,7 +46,9 @@
             <!-- Content Centre -->
             <div class="col-8" id="text" style="border:30px solid transparent">
                 <p class="text-center" id="text">
-                <h1><?php echo $nom; ?></h1>
+                <h1>
+                    <?php echo $nom; ?>
+                </h1>
                 <?php echo $resume; ?>
                 </p>
                 <p class="text-center" id="text">
@@ -65,7 +67,7 @@
                 <hr />
                 <!-- middle -->
                 <p class="text-center" id="text" style="border:15px solid transparent;">
-                    Naissance - 
+                    Naissance -
                     <?php
                     if ($naissance!=NULL) {
                         echo $naissance;
@@ -73,8 +75,9 @@
                         echo "Inconnue";
                     }; 
                     ?></br>
-                    Statut - <?php echo "<a href=\"pages/catégorie/affiche_categ_statut.php?id=",$id_statut_perso."\">"; echo $statut; ?></a></br>
-                    Décès - 
+                    Statut -
+                    <?php echo "<a href=\"pages/catégorie/affiche_categ_statut.php?id=",$id_statut_perso."\">"; echo $statut; ?></a></br>
+                    Décès -
                     <?php
                     if ($deces!=NULL) {
                         echo $deces;
@@ -82,10 +85,14 @@
                         echo "Inconnue";
                     }; 
                     ?></br>
-                    Sexe - <?php echo $sexe; ?></br>
-                    Nationalité - <?php echo $nationalite; ?></br>
-                    Occupation - <?php echo $occupation; ?></br>
-                    Rôles - <?php echo "<a href=\"pages/catégorie/affiche_categ_role.php?id=",$id_role."\">"; echo $role; ?></a></br>
+                    Sexe -
+                    <?php echo $sexe; ?></br>
+                    Nationalité -
+                    <?php echo $nationalite; ?></br>
+                    Occupation -
+                    <?php echo $occupation; ?></br>
+                    Rôles -
+                    <?php echo "<a href=\"pages/catégorie/affiche_categ_role.php?id=",$id_role."\">"; echo $role; ?></a></br>
                 </p>
                 <!-- middle -->
                 <hr />
