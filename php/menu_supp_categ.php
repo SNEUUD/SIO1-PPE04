@@ -46,7 +46,7 @@
 
           echo
           "<div class=\"card text-white bg-dark\" style=\"width: 18rem;\">
-          <a href=\"php/modifications_categ.php?id=",$categ["code_categ"]."\">
+          <a href=\"php/supp_categ.php?id=",$categ["code_categ"]."\">
           <div class=\"card-body\">
             <h5 class=\"card-title\">$nom_categ</h5>
             <p class=\"card-text\">$description_categ</p>

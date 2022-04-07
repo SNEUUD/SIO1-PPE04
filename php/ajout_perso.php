@@ -10,5 +10,5 @@ $req->execute([$_POST["code"],$_POST["nom"], $_POST["resume"], $_POST["histoire"
 
 
 
-header('Location: menu_modification_perso.php');
+header('Location: menu_modification.php');
 ?>

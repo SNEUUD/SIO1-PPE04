@@ -7,7 +7,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="../css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="icon" href="../images/navbar_icon.png" />
+    <link rel="icon" href="images/navbar_icon.png" />
     <base href="../">
 </head>
 
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6" style="border:30px solid transparent">
+            <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
                     <a href="php/menu_ajout_perso.php">
                         <img src="images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top" alt="Arthur Morgan">
@@ -61,6 +61,27 @@
                         <div class="card-body">
                             <h5 class="card-title">Catégories</h5>
                             <p class="card-text" id="text_card">Vous souhaitez ajouter une catégories ?</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4" style="border:30px solid transparent">
+                <div class="card text-white bg-dark" style="width: 18rem;">
+                    <a href="php/menu_supp_perso.php">
+                        <img src="images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top" alt="Arthur Morgan">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Personnages</h5>
+                        <p class="card-text">Vous souhaitez supprimer un personnages ?</p>
+                    </div>
+                </div>
+                <br>
+                <div class="card text-white bg-dark" style="width: 18rem;">
+                        <a href="php/menu_supp_categ.php">
+                            <img src="images/bande-de-van-der-linde-m.jpg" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Catégories</h5>
+                            <p class="card-text" id="text_card">Vous souhaitez supprimer une catégories ?</p>
                         </div>
                 </div>
             </div>

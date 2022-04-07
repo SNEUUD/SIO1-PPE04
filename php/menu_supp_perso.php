@@ -26,16 +26,18 @@
         
         include ("connexion.php");
 
-        $req = $bdd->prepare("SELECT * FROM categories");
+        $req = $bdd->prepare("SELECT * FROM personnages");
         $req->execute();
-        $categs = $req->fetchAll();
+        $personnages = $req->fetchAll();
         
         $n=0;
 
-        foreach ($categs as $categ){
-          $code_categ = $categ["code_categ"];
-          $nom_categ = $categ["nom_categ"];
-          $description_categ = $categ["description_categ"];
+        foreach ($personnages as $personnage){
+          $id_perso = $personnage["code_perso"];
+          $nom_perso = $personnage["nom_perso"];
+          $resume_perso = $personnage["resume_perso"];
+          $image_perso = $personnage["image_perso"];
+          $lien_perso = $personnage["lien_perso"];
           
           if ($n==2) {
             echo
@@ -46,14 +48,16 @@
 
           echo
           "<div class=\"card text-white bg-dark\" style=\"width: 18rem;\">
-          <a href=\"php/modifications_categ.php?id=",$categ["code_categ"]."\">
-          <div class=\"card-body\">
-            <h5 class=\"card-title\">$nom_categ</h5>
-            <p class=\"card-text\">$description_categ</p>
-            </div>
+          <a href=\"php/supp_perso.php?id=",$personnage["code_perso"]."\">
+          <img src=\"$image_perso\" class=\"card-img-top\" alt=\"Arthur Morgan\">
           </a>
+          <div class=\"card-body\">
+            <h5 class=\"card-title\">$nom_perso</h5>
+            <p class=\"card-text\">$resume_perso</p>
+            </div>
           </div>
           <br>";
+
           $n++;
         }
         ?>
@@ -74,7 +78,7 @@
         <hr />
         <!-- bottom -->
         <p class="text-center" id="text" style="border:15px solid transparent;">
-          Sélectionner le catégorie que vous souhaiter modifier.
+          Sélectionner le personnages que vous souhaiter supprimer.
         </p>
         <!-- bottom -->
       </div>
