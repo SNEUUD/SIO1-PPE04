@@ -22,7 +22,7 @@
     <div class="px-5 pt-3 pb-3">
         <div class="row" id="content">
             <!-- Content Centre -->
-            <div class="col-8" style="border:30px solid transparent">
+            <div class="col-2" style="border:30px solid transparent">
                 <div class="card text-white bg-dark" style="width: 18rem;">
                     <a href="php/menu_modification_perso.php">
                         <img src="images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top">
@@ -41,6 +41,27 @@
                         <h5 class="card-title">Catégorie</h5>
                         <p class="card-text">Vous souhaitez modifier une catégorie ?</p>
                     </div>
+                </div>
+            </div>
+            <div class="col-6" style="border:30px solid transparent">
+                <div class="card text-white bg-dark" style="width: 18rem;">
+                    <a href="php/menu_ajout_perso.php">
+                        <img src="images/rdr2_dutch_van_der_linde_256x256.png" class="card-img-top" alt="Arthur Morgan">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Personnages</h5>
+                        <p class="card-text">Vous souhaitez ajouter un personnages ?</p>
+                    </div>
+                </div>
+                <br>
+                <div class="card text-white bg-dark" style="width: 18rem;">
+                        <a href="php/menu_ajout_categ.php">
+                            <img src="images/bande-de-van-der-linde-m.jpg" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Catégories</h5>
+                            <p class="card-text" id="text_card">Vous souhaitez ajouter une catégories ?</p>
+                        </div>
                 </div>
             </div>
             <!-- Content Centre -->
