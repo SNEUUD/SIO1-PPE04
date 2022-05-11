@@ -14,6 +14,7 @@
 <body>
   <!-- Navbar -->
   <?php
+    session_start();
     include ('entete.php');
   ?>
   <!-- Navbar -->
@@ -74,7 +75,8 @@
         <hr />
         <!-- bottom -->
         <p class="text-center" id="text" style="border:15px solid transparent;">
-          Sélectionner le catégorie que vous souhaiter modifier.
+        Bonjour <?php echo $_SESSION['user']; ?>,  
+        sélectionner le catégorie que vous souhaiter modifier.
         </p>
         <!-- bottom -->
       </div>

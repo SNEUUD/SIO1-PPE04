@@ -14,6 +14,7 @@
 <body>
     <!-- Navbar -->
     <?php
+        session_start();
         include ('entete.php');
     ?>
     <!-- Navbar -->
@@ -101,7 +102,8 @@
                 <hr />
                 <!-- bottom -->
                 <p class="text-center" id="text" style="border:15px solid transparent;">
-                    Vous pouvez modifier les catégorie ou les personnages.
+                    Bonjour <?php echo $_SESSION['user']; ?>,
+                    vous pouvez modifier les catégorie ou les personnages.
                 </p>
                 <!-- bottom -->
             </div>
