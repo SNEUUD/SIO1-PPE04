@@ -16,6 +16,12 @@
     <?php
     include ('entete.php');
     include ('connexion.php');
+    echo $_SESSION['id'];
+    if(isset($_SESSION['id'])){
+      echo "<script>console.log('SESSION Connected');</script>";
+    } else {
+      header('Location:page_connexion.php');
+    };
 
     $code = $_GET["id"];
 

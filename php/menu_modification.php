@@ -16,6 +16,12 @@
     <?php
         session_start();
         include ('entete.php');
+        echo $_SESSION['id'];
+        if(isset($_SESSION['id'])){
+            echo "<script>console.log('SESSION Connected');</script>";
+        } else {
+            header('Location:page_connexion.php');
+        };
     ?>
     <!-- Navbar -->
     <!-- Content -->
