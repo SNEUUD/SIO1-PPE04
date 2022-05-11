@@ -19,9 +19,9 @@
     <!-- Navbar -->
     <!-- Content-->
     <div class="px-5 pt-3 pb-3">
-        <div class="row" id="content">
+        <div class="row justify-content-center" id="content">
             <!-- Content Centre -->
-            <div class="col-12" id="text" style="border:30px solid transparent">
+            <div class="col-4" id="text" style="border:30px solid transparent">
                 <fieldset id="text">
                     <legend>Connexion</legend>
                     <form action="php/Authentification.php" method="post">
@@ -41,6 +41,9 @@
                                 <td>
                                     <input type="password" name="password">
                                 </td>
+                            </tr>
+                            <tr>
+                                <td> </td>
                             </tr>
                             <tr>
                                 <td>
