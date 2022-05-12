@@ -18,7 +18,7 @@
     include ('entete.php');
     echo $_SESSION['id'];
     if(isset($_SESSION['id'])){
-      echo "<script>console.log('SESSION Connected');</script>";
+      echo "<script>console.log('SESSION Connected".$_SESSION['user']."');</script>";
     } else {
       header('Location:page_connexion.php');
     };

@@ -23,43 +23,104 @@
             <!-- Content Centre -->
             <div class="col-4" id="text" style="border:30px solid transparent">
                 <fieldset id="text">
-                    <legend>Connexion</legend>
-                    <form action="php/Authentification.php" method="post">
-                        <table>
-                            <tr>
-                                <td>
-                                    <label style="color:white;">Identifiant</label>
-                                </td>
-                                <td>
-                                    <input type="text" name="id">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label style="color:white;">Password</label>
-                                </td>
-                                <td>
-                                    <input type="password" name="password">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="submit" value="Connexion">
-                                </td>
-                                <td>
-                                    <input type="reset" value=" Annuler ">
-                                </td>
-                            </tr>
-                        </table>
+                    <legend><button id="togg1" class="btn btn-dark" onclick="Connexion()">Connexion</button> - <button
+                            id="togg2" class="btn btn-dark" onclick="Inscription()">Inscription</button></legend>
+                    <div id="d1" style="display:block;">
+                        <form action="php/Authentification.php" method="post">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label style="color:white;">Identifiant</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="id">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="color:white;">Password</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" name="password">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="Connexion">
+                                    </td>
+                                    <td>
+                                        <input type="reset" value=" Annuler ">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div id="d2" style="display:none;">
+                        <form action="php/creer_utilisateur.php" method="post">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label style="color:white;">Identifiant</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="id_new">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="color:white;">Password</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" name="password_new">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="Créer le compte">
+                                    </td>
+                                    <td>
+                                        <input type="reset" value=" Annuler ">
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
                     </form>
-                    </legend>
-                </fieldset>
             </div>
-            <!-- Content Centre -->
+            </legend>
+            </fieldset>
         </div>
+        <script type="text/javascript">
+            function Connexion() {
+                var btn_connexion = document.getElementById("d1");
+                var btn_inscription = document.getElementById("d2");
+                if (btn_connexion.style.display === "none") {
+                    btn_connexion.style.display = "block";
+                    btn_inscription.style.display = "none";
+                } else if (btn_connexion.style.display === "block") {
+                    btn_connexion.style.display = "block";
+                    btn_inscription.style.display = "none";
+                }
+            }
+            function Inscription() {
+                var btn_connexion = document.getElementById("d1");
+                var btn_inscription = document.getElementById("d2");
+                if (btn_inscription.style.display === "none") {
+                    btn_connexion.style.display = "none";
+                    btn_inscription.style.display = "block";
+                } else if (btn_inscription.style.display === "block") {
+                    btn_connexion.style.display = "none";
+                    btn_inscription.style.display = "block";
+                }
+            }
+        </script>
+        <!-- Content Centre -->
+    </div>
     </div>
     <!-- Content-->
     <!-- Footer -->
